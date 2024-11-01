@@ -1,0 +1,50 @@
+.main{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:20px;
+}
+.container{
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+} 
+.box{
+    height:18vmin;
+    width:18vmin;
+    margin-left: 13px;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    box-shadow: 1px 1px 2px 2px black;
+    font-size: 70px;
+    color: darkblue;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}    
+body{
+    background-color:lightblue;
+    
+}
+button{
+    height:30px;
+    width:100px;
+    border-radius: 5px;
+    background-color:azure;
+}
+.after{
+    font-size: 40px;
+    color:crimson
+}
+.color{
+    color:darkgreen;
+}
